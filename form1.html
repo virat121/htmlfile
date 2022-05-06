@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!--<link type="text/javascript" rel="stylesheet" href="C:\Users\hp\Desktop\Toxy\Javascript\msg_alert.js">-->
+</head>
+<body> 
+    <script type="text/javascript">
+        alert("Fill all information correctly")
+    </script>
+    <form action="submit_form.html" method="post" target="" autocomplete="on" onsubmit="alert()" >
+        <fieldset >
+        <legend class="legend"> Registration Form</legend>
+        <div id="id1">This Form is regarding your addmission in college.</div>
+        <label for="Name">Firstname:</label><br>
+        <input type="text" name="Firstname" placeholder="Firstname" id="name" required >
+        <br><br>
+        <div>Lastname: <br>
+        <input type="text" name="Lastname" placeholder="Lastname"></div>
+        <br>
+        <div>Father's Name: <br>
+        <input type="Father's Name" name="Father's Name" placeholder="Father's Name" id="fd"></div>
+        <br>
+        <div>Username: <br>
+            <input type="name"  >
+        </div><br>
+        <div>Email: <br>
+            <input type="email" value="" >
+        </div><br>
+        <div>Dob:
+            <input type="date" value="DOB">
+        </div><br>
+        <div>PhoneNo:
+            <input type="tel" name="Phoneno." placeholder="123-659-2324" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" >
+        </div><br>
+        <div>Tel no:
+            <input type="tel" name="Phoneno." placeholder="123-659-2324" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" >
+        </div><br>
+        <div>Gender: <label >
+           <input type="radio" name="Gender" value="male" > Male </label>
+          <label> <input type="radio" name="Gender" value="Female" > Female </label>
+           <label ><input type="radio" name="Gender" value="Other" > Other </label>
+        </div><br>
+        <div>Photo: <br>
+            <input type="file" name="Photo" id="">
+        </div><br>
+        <div>Favourite Sports: <br>
+            Cricket <input type="checkbox" name="Sport" value="cricket">
+            Basketball <input type="checkbox" name="Sport" value="Basketball">
+            Football <input type="checkbox" name="Sport" value="Football">
+        </div><br>
+        <label for="Exam">Exam Appeared:</label>
+        <select name="Exam Appeared" id="Exam">
+            <option value="IIT-JEE">IIT-JEE</option>
+            <option value="COMEDK">COMEDK</option>
+            <option value="KCET">KCET</option>
+            <option value="OTHERS">OTHERS</option>
+        </select><br><br>
+        Address: <br>
+            <textarea name="Address" id="" rows="" cols=""></textarea>
+        <br><br>
+        <input type="submit" name="submitbutton" value="SUBMIT" id="button1">
+        <input type="reset" name="resetbutton" value="RESET" id="button1">
+        </fieldset> 
+    </form>
+</body>
+</html>
